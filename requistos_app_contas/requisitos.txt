@@ -1,0 +1,22 @@
+requisitos: 
+1 possuir cadastro rapido com google ou facebook, ou criar um novo cadastro no app 
+
+2 possuir um login rapido com google ou facebook(caso primeiro login, realizar cadastro rapido), 
+ou login tracionar com login e senha cadastrados
+
+3 cadastro deve possuir nome, email, senha, confirmar senha
+
+4 o aplicativo será para gerenciar as contas e rendas mensais, logo deve possuir uma aba para cadastrar 
+as rendas e criar um orsamento mensal a renda mensal fixa,
+com data de recebimento(sendo fixa ou por dia util), valor e descrição, 
+além disso um para dicionar rendas extrar, com o data de recebimento, valor e descrição
+
+5 para adicionar as contas, tempos três tipos contas, 1-constas mensais, definindo um dia de vencimento e todo mês ela já será debitada do 
+orsamento mensal e notificando um dia antes do vencimento, 2-constas diarias, com valor data(data padrão é o dia atual) e descrição
+
+6 o aplicativo deve mostrar na tela inicial, o orçamento mensal, as constas e ganhos que irão ocorrer nos proximos dias, numa lista com
+rodapé infinito e um botão de (+) para adicionar contas e redimentos 
+
+irei usar api rest para a comunicação entre o back-end e front-end 
+irei armazenar os dodos em tabelas relacionais num schema unico no banco de dados postgres 
+
